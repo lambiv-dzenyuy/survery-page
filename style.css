@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(survey-form-background.jpeg);
+    background-blend-mode: overlay;
+    background-color: rgb(81, 32, 104);
+}
+.main {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+#title,#description {
+    color: white;
+    text-align: center;
+}
+#title{
+    padding-top: 80px;
+    margin-bottom: .3em;
+    }
+#description{
+    margin-top: 0;
+    line-height: 20pt;
+}  
+
+#survey-form{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-bottom: .5em;
+    background: rgba(19, 13, 13, 0.8);
+    margin: 0 auto;
+    font-size: 16pt;
+    color: white;
+    max-width: 700px;
+    border-radius: .3em;
+    
+    
+   
+}
+label, input, textarea{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+label{
+  padding-top: 1.5rem;
+  display: block;
+   
+}
+input, textarea{
+    border-radius: .5em;
+    border: hidden;
+    font-size: 14pt;
+    color: rgb(155, 111, 111);
+    padding-left: 1.5rem;
+    
+}
+#name,#number, #email{
+    min-height: 30pt;
+    
+}
+
+.hint{
+    color: rgb(187, 174, 174);;
+}
+select{
+   
+   line-height: 19;
+}
+#dropdown, .form-itm{
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+.form-itm{
+    margin-bottom: .3em;
+    margin-top: 1.5rem;
+}
+#dropdown{
+    height: 30pt;
+    font-size: 14pt;
+    border-radius: .3em;
+    padding-left: 1rem;
+}
+.optn{
+    display: inline-flex;
+}
+
+[type="radio"], [type="checkbox"]{
+    margin: 0;
+    margin-right: .5rem;
+    
+
+}
+.larger{
+    height: 1.3rem;
+    width: 1.3rem;
+}
+
+.radio-itm, .checkbox-itm{
+    margin-top: .3em;
+    padding: 0;
+    
+}
+#submit{
+    font-size: 13pt;
+    background-color: #37af65;
+    margin: 1em 2rem;
+    height: 50px;
+    
+}
